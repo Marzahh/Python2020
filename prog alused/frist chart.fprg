@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-15 08:29:52 AM"/>
+        <attribute name="created" value="U3R1ZGVudDtBNDA2LTEwOzIwMjAtMDktMTU7MDg6MTk6NTYgQU07MjM4MQ=="/>
+        <attribute name="edited" value="U3R1ZGVudDtBNDA2LTEwOzIwMjAtMDktMTU7MDg6Mjk6NTIgQU07MTsyNDg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2" type="Integer" array="False" size=""/>
+            <input variable="arv1"/>
+            <input variable="arv2"/>
+            <if expression="arv1&gt;arv2">
+                <then>
+                    <output expression="&quot;Esimene (arv1) arv on suurem&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Arv 2 on suurem&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
